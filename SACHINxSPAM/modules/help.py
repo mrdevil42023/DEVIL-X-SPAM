@@ -5,13 +5,13 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-**❖ 𝖨𝖳'𝖲 𝖲𝖠𝖭𝖠𝖳𝖠𝖭𝖨 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
+**❖ 𝖨𝖳'𝖲 DEVIL 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
 
 **● ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**
-**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @SACHIN_OWNER**
-**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @V_VIP_OWNER**
+**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @mrdevil12**
+**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @mrdevil12**
 
-**● ᴍᴏᴅᴇ ʙʏ » [❖ | 4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ | ❖](https://t.me/+cW07X2RM_IBmYTI1)**
+**● ᴍᴏᴅᴇ ʙʏ » [❖ | 4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ | ❖](https://t.me/akatsuki976)**
 """
 HELP_BUTTON = [
     [
@@ -23,8 +23,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/devilbots971"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/devilbotsupport")
     ]
   ]
 
@@ -104,7 +104,7 @@ extra_msg = f"""
   ⦁ {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
   ⦁ {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @mrdevil12 ~ @mrdevil12**
 """
 
 
@@ -116,7 +116,7 @@ owner_msg = f"""
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @SACHIN_OWNER ~ @V_VIP_OWNER**
+**© @mrdevil12 ~ @mrdevil12**
 """      
           
 raid_msg = f"""
@@ -140,7 +140,7 @@ raid_msg = f"""
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @mrdevil12 ~ @mrdevil12**
 """
 
 spam_msg = f"""
@@ -183,7 +183,7 @@ spam_msg = f"""
   ⦁ {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @SACHIN_OWMER ~ @V_VIP_OWMER**
+** © @mrdevil12 ~ @mrdevil12**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -210,13 +210,13 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/devilbots971"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/devilbotsupport")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @mrdevil12 || @mrdevil12", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -235,7 +235,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @mrdevil12 || @mrdevil12", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -254,7 +254,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @mrdevil12 || @mrdevil12", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -273,4 +273,4 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @mrdevil12 || @mrdevil12", cache_time=0, alert=True)
